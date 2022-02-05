@@ -8,4 +8,8 @@ export const HeroDiv = styled.div`
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+
+    @media screen and (max-width: 576px) {
+        background-size: cover;
+    }
 `;
