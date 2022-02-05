@@ -11,14 +11,12 @@ export default function Home() {
       <Head>
         <title>Citrine Hair Studio</title>
       </Head>
-        <NavBar/>
         <Hero 
         position={`center`}
         image={`https://res.cloudinary.com/lonecrow/image/upload/v1643990999/Citrine/LSA_9484_f5yj6d.jpg`}/>
         <Welcome/>
         <Hero position={`top`}
         image={`https://res.cloudinary.com/lonecrow/image/upload/v1644012068/Citrine/LSA_9427_pfmsli.jpg`}/>
-        <Footer/>
     </>
   )
 }

@@ -23,4 +23,8 @@ export const NavLink = styled.li`
     color: var(--cream);
     font-size: 1rem;
     list-style: none;
+
+    &:hover {
+        color: var(--black);
+    }
 `;

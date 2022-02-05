@@ -16,7 +16,7 @@ const NavBar = () => {
   <Nav>
       <Logo/>   
       <NavLinkList>
-          <NavLink><Link href='/'>Meet Citrine</Link></NavLink>
+          <NavLink><Link href='/meet'>Meet Citrine</Link></NavLink>
           <NavLink><Link href='/services'>Services</Link></NavLink>
           <NavLink><Link href='/policies'>Policies</Link></NavLink>
           <NavLink><Link href='/links'>Affiliate Links</Link></NavLink>
