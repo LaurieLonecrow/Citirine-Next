@@ -1,10 +1,10 @@
 import React from 'react';
-// import {} from './FAQStyles'
+import {Container} from './FAQStyles'
 const FAQ = () => {
   return (
-  <div>
+  <Container>
       <h1>FAQs</h1>
-  </div>
+  </Container>
   );
 };
 
