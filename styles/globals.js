@@ -5,8 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif, Gilda Display, Forum;
+  font-family: -apple-system, brandon-grotesque, Agreable, Sansburg, sans-serif;
 }
 
 a {
@@ -24,7 +23,7 @@ a {
   --rose: #d47c8b;
   --lightrose: #edc9bd;
   --white: #f1f1f1;
-  --cream: #f8f3e6;
+  --cream: #f9f2ed;
   --orange: #ff8426;
   --black: #1a1a1a;
 }

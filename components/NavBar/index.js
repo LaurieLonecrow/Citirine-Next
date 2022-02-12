@@ -1,29 +1,30 @@
 import Link from 'next/link';
 import {useState} from 'react';
+import { CgMenu } from 'react-icons/cg';
 import Modal from '../ModalNav';
 import Logo from '../Logo';
-import { Nav, NavLinkList, NavLink } from './NavBarStyles'
+import { Nav, NavButton, NavLinkList, NavLink } from './NavBarStyles'
 
 const NavBar = () => {
-    const [showModal, setShowModal] = useState(true);
+    const [showModal, setShowModal] = useState(false);
     function show() {
-        return setShowModal(!showModal)
-    }
-    function showModalMenu() {
-      showModal ? <Modal onClick={()=> show()}/> : null
+      setShowModal(!showModal)
     }
   return (
-  <Nav>
-      <Logo/>   
-      <NavLinkList>
-          <NavLink><Link href='/meet'>Meet Citrine</Link></NavLink>
-          <NavLink><Link href='/services'>Services</Link></NavLink>
-          <NavLink><Link href='/policies'>Policies</Link></NavLink>
-          <NavLink><Link href='/links'>Affiliate Links</Link></NavLink>
-          <NavLink><Link href='/faq'>FAQ</Link></NavLink>
-        </NavLinkList>
-      {/* <Modal onClick={()=> show()}/> */}
-  </Nav>
+    <>
+    <Nav>
+      <Logo onClick={()=>show()}/>   
+      <NavButton onClick={()=>show()}><CgMenu/></NavButton>
+    </Nav>
+    <NavLinkList visible={showModal}>
+      <NavLink onClick={()=>show()} ><Link href='/meet'>Meet Citrine</Link></NavLink>
+      <NavLink onClick={()=>show()}><Link href='/services'>Services</Link></NavLink>
+      <NavLink onClick={()=>show()}><Link href='/policies'>Policies</Link></NavLink>
+      <NavLink onClick={()=>show()}><Link href='/links'>Affiliate Links</Link></NavLink>
+      <NavLink onClick={()=>show()}><Link href='/faq'>FAQ</Link></NavLink>
+    </NavLinkList>
+  </>
+
   );
 };
 

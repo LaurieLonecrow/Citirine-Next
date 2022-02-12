@@ -10,8 +10,6 @@ export const HeroDiv = styled.div`
     height: 100vh;
 
     @media screen and (max-width: 576px) {
-        background-size: cover;
         background-attachment: scroll;
-
     }
 `;
