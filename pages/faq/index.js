@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from './FAQStyles'
+// import {} from './FAQStyles'
 const FAQ = () => {
   return (
   <div>

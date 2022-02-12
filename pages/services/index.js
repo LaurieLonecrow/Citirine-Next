@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from './ServicesStyles'
+// import {} from './ServicesStyles'
 const Sevices = () => {
   return (
   <div>

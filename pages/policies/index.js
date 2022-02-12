@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from './PoliciesStyles'
+// import {} from './PoliciesStyles'
 const Policies = () => {
   return (
   <div>

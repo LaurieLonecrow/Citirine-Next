@@ -1,9 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
-import {LogoText} from './LogoStyles'
+import {LogoTitle, LogoText} from './LogoStyles'
 const Logo = () => {
   return (
-  <LogoText><Link href='/'>Citrine Hair Studio</Link></LogoText>);
+  <Link href='/'>
+    <div>
+      <LogoText>Citrine Hair Studio</LogoText>
+    </div>
+  </Link>
+  );
 };
 
 export default Logo;
