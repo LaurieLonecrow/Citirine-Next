@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './MeetStyles'
+import {Container} from '../../styles/MeetStyles'
 const Meet = () => {
   return (
   <div>

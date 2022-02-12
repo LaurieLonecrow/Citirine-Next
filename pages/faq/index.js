@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './FAQStyles'
+import {Container} from '../../styles/FAQStyles'
 const FAQ = () => {
   return (
   <Container>

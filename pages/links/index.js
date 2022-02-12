@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './LinksStyles'
+import {Container} from '../../styles/LinksStyles'
 const Links = () => {
   return (
   <div>

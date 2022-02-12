@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './ServicesStyles'
+import {Container} from '../../styles/ServicesStyles'
 const Sevices = () => {
   return (
   <div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './PoliciesStyles'
+import {Container} from '../../styles/PoliciesStyles'
 const Policies = () => {
   return (
   <div>
