@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     color: var(--cream);
-    font-family: Sansburg;
+    font-family: Montserrat;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.65em;
@@ -17,8 +17,8 @@ export const Content = styled.div`
 
 export const Heading = styled.h1`
     color: var(--cream);
-    font-family: Agreable;
-    font-size: 4rem;
+    font-family: Festive;
+    font-size: 3rem;
     position: absolute;
     top: 20px;
     left: 50px;    

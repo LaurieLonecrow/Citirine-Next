@@ -40,7 +40,7 @@ export const NavLinkList = styled.ul`
 
 export const NavLink = styled.li`
     color: var(--cream);
-    font-family: Sansburg;
+    font-family: Montserrat;
     font-size: 3rem;
     list-style: none;
 

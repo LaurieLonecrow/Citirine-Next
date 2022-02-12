@@ -14,7 +14,7 @@ export const Content = styled.div`
 color: var(--cream);
 display: flex;
 justify-content: space-around;
-font-family: Sansburg, sans-serif;
+font-family: Montserrat, sans-serif;
 text-align: center;
 @media screen and (max-width: 576px) {
     flex-direction: column;}
@@ -26,7 +26,7 @@ flex-direction: column;
 `;
 
 export const ContentTitle = styled.h1`
-font-family: Agreable, sans-serif;
+font-family: Festive, sans-serif;
 font-size: 2rem;
 
 `;
