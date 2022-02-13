@@ -5,7 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, brandon-grotesque, Festive, Montserrat, sans-serif;
+  font-family: -apple-system, brandon-grotesque, Inspiration, Montserrat, sans-serif;
 }
 
 a {

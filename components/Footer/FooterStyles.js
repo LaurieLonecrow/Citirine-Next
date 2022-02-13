@@ -23,12 +23,15 @@ text-align: center;
 export const ContentCard = styled.div`
 display: flex;
 flex-direction: column;
+padding: 20px;
+
 `;
 
 export const ContentTitle = styled.h1`
-font-family: Festive, sans-serif;
+font-family: Inspiration, sans-serif;
 font-size: 2rem;
-
+margin-block-start: 0;
+margin-block-end: 0;
 `;
 
 export const Maps = styled.div`

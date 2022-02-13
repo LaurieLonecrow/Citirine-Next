@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
     background: linear-gradient(180deg, var(--rose) 0%, var(--lightrose) 100%);
     position: relative;
-    padding: 150px 40px 80px;
+    padding: 100px 40px 80px;
 `;
 
 export const Content = styled.div`
@@ -17,12 +17,14 @@ export const Content = styled.div`
 
 export const Heading = styled.h1`
     color: var(--cream);
-    font-family: Festive;
-    font-size: 3rem;
+    font-family: Inspiration, sans-serif;
+    font-size: 3.5rem;
     position: absolute;
-    top: 20px;
-    left: 50px;    
+    top: 1.5rem;
+    left: 40px;    
     transform: rotate(-10deg);
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
 `;
 

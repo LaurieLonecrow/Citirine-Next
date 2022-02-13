@@ -4,7 +4,7 @@ export const Nav = styled.nav`
     background: var(--orange);
     opacity: .8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
 `;
 
