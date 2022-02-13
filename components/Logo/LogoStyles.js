@@ -6,5 +6,6 @@ export const LogoText = styled.h1`
     font-family: Inspiration, sans-serif;
     font-size: 3rem;
     padding: 0 20px;
+    cursor: pointer;
     
 `;

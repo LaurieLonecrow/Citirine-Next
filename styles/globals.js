@@ -21,7 +21,8 @@ a {
   --purple: #3f53ab;
   --emerald: #1b4d4a;
   --rose: #d47c8b;
-  --lightrose: #edc9bd;
+  --lightrose: #ffe0e0;
+  // --lightrose: #edc9bd;
   --white: #f1f1f1;
   --cream: #f9f2ed;
   --orange: #ff8426;

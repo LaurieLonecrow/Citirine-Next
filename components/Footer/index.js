@@ -1,6 +1,6 @@
 import React from 'react';
 import {BsInstagram} from 'react-icons/bs'
-import { Container, Content, ContentTitle, ContentCard, Maps, SocialLink } from './FooterStyles';
+import { Container, Content, ContentTitle, ContentCard, Maps, SocialLink, CopyRight } from './FooterStyles';
 const Footer = () => {
 
     function handleMapsClick() {
@@ -37,7 +37,7 @@ const Footer = () => {
         </ContentCard>
     </Content>
     <SocialLink href="https://www.instagram.com/citrine.hair.studio/"><BsInstagram/></SocialLink>
-    <p> © 2022 Citrine Hair Studio </p>
+    <CopyRight> © 2022 Citrine Hair Studio </CopyRight>
   </Container>
   );
 };
