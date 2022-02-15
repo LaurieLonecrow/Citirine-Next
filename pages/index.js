@@ -15,5 +15,5 @@ export default function Home() {
         <Hero position={`top`}
         image={`https://res.cloudinary.com/lonecrow/image/upload/v1644012068/Citrine/LSA_9427_pfmsli.jpg`}/>
     </>
-  )
-}
+  );
+};
