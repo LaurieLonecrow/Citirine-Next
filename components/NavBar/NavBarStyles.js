@@ -19,7 +19,11 @@ export const NavButton = styled.button`
     cursor: pointer;
     @media screen and (max-width: 576px) {
         font-size: 2rem;
+        position: absolute;
+        top: .15rem;
+        right: .15rem;
     }
+
 `;
 
 export const NavLinkList = styled.ul`
