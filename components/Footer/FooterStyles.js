@@ -16,7 +16,7 @@ border: 3px solid var(--rose);
 box-shadow: 0 0 0 1.5rem var(--lightrose);
 color: var(--black);
 display: flex;
-font-family: Montserrat, sans-serif;
+font-family: Unica One, sans-serif;
 justify-content: space-around;
 margin: 20px;
 text-align: center;

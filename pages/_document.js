@@ -35,6 +35,7 @@ export default class MyDocument extends Document {
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Montserrat:wght@200&display=swap" rel="stylesheet"/>        </Head>
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet"></link>
         <body>
           <Main />
           <NextScript />
