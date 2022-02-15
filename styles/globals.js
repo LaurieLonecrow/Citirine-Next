@@ -25,7 +25,7 @@ a {
   // --lightrose: #edc9bd;
   --white: #f1f1f1;
   --cream: #f9f2ed;
-  --orange: #ff8426;
+  --orange: #fda50f;
   --black: #1a1a1a;
 }
 `

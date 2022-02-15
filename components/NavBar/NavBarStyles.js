@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
     background: var(--orange);
-    opacity: .8;
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -25,7 +24,6 @@ export const NavButton = styled.button`
 
 export const NavLinkList = styled.ul`
     background: var(--orange);
-    opacity: .8;
     flex-direction: column;
     text-align: center;
     gap: 20px;
@@ -40,7 +38,7 @@ export const NavLinkList = styled.ul`
 
 export const NavLink = styled.li`
     color: var(--cream);
-    font-family: Unica One, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 3rem;
     list-style: none;
 

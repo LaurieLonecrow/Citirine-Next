@@ -8,7 +8,7 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     // color: var(--cream);
-    font-family: Unica One, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 1.65em;
@@ -21,8 +21,8 @@ export const Content = styled.div`
 
 export const Heading = styled.h1`
     color: var(--cream);
-    font-family: Inspiration, sans-serif;
-    font-size: 3.5rem;
+    font-family: Unica One, sans-serif;
+    font-size: 3rem;
     position: absolute;
     top: 1.5rem;
     left: 40px;    
