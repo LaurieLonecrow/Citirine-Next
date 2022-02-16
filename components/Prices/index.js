@@ -1,15 +1,15 @@
 import React from 'react';
-
+import { Container, Content, PriceHeader, PriceListItem } from './PricesStyles';
 const Prices = ({pricing}) => {
   return (
-      <>
+      <Container>
   {pricing.map((each,id) => (
     <>
-    <h1 key={id}>{each.name}</h1>
-    {each.services.map((service, id)=> <li key={id}>{service}</li>)}
+    <PriceHeader key={id}>{each.name}</PriceHeader>
+    {each.services.map((service, id)=> <PriceListItem key={id}>{service}</PriceListItem>)}
     </>
   ))}
-  </>
+  </Container>
   )
 };
 
