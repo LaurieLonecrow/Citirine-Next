@@ -23,6 +23,7 @@ padding: 40px 40px 0;
 `;
 
 export const BioName = styled.h1`
+font-family: Unica One, sans-serif;
 font-size: 5rem;
 position: absolute;
 top: 5%;
@@ -35,6 +36,7 @@ left: 20%;
 `;
 
 export const BioTagline = styled.h3`
+font-family: Unica One, sans-serif;
 font-size: 2rem;
 @media screen and (max-width: 576px) {
     font-size: 1.2rem;
@@ -42,6 +44,7 @@ font-size: 2rem;
 `;
 
 export const BioContent = styled.p`
+font-family: Montserrat, sans-serif;
 text-align: left;
 padding: 0 40px;
 white-space: pre-wrap;

@@ -21,7 +21,7 @@ const NavBar = () => {
       <NavLink onClick={()=>show()}><Link href='/services' passHref>Services</Link></NavLink>
       <NavLink onClick={()=>show()}><Link href='/policies' passHref>Policies</Link></NavLink>
       <NavLink onClick={()=>show()}><Link href='/links' passHref>Affiliate Links</Link></NavLink>
-      <NavLink onClick={()=>show()}><Link href='/faq' passHref>FAQ</Link></NavLink>
+      {/* <NavLink onClick={()=>show()}><Link href='/faq' passHref>FAQ</Link></NavLink> */}
     </NavLinkList>
   </>
 
