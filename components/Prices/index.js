@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Content, PriceHeader, PriceListItem } from './PricesStyles';
+import { Container, PriceHeader, PriceListItem } from './PricesStyles';
 const Prices = ({pricing}) => {
   return (
       <Container>

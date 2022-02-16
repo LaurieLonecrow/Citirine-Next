@@ -1,11 +1,9 @@
 import React from 'react';
-import {Container} from '../../styles/PoliciesStyles'
+import Policy from '../../components/Policy';
 const Policies = () => {
   return (
   <div>
-      <h1>cancelation policy</h1>
-      <h1>covid policy</h1>
-      <h1>accept Cash and Card payments</h1>
+      <Policy/>
   </div>
   );
 };

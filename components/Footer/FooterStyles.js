@@ -10,10 +10,10 @@ width: 100vw;
 `;
 
 export const Content = styled.div`
-background-color: var(--lightrose);
-border: 3px solid var(--rose);
+background-color: var(--lightorange);
+border: 3px solid var(--orange);
 // border-radius: 20px;
-box-shadow: 0 0 0 1.5rem var(--lightrose);
+box-shadow: 0 0 0 1.5rem var(--lightorange);
 color: var(--black);
 display: flex;
 font-family: Montserrat, sans-serif;
@@ -43,11 +43,12 @@ cursor: pointer;
 
 export const SocialLink = styled.a`
 font-size: 3rem;
-color: var(--rose);
+color: var(--orange);
 opacity: .8;
 padding-top: 60px;
 `;
 
 export const CopyRight = styled.p`
+font-family: Unica One, sans-serif;
 color: var(--black);
 `;

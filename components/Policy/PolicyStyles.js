@@ -9,20 +9,17 @@ padding: 40px;
     }
 `;
 
-export const PriceHeader = styled.h1`
+export const PolicyCard = styled.div`
+`;
+
+export const PolicyHeader = styled.h1`
 font-family: Unica One, sans-serif;
 text-decoration: underline;
 `;
 
-export const PriceListItem = styled.li`
+export const PolicyContent = styled.p`
 font-family: Montserrat, sans-serif;
-line-height: 2rem;
-list-style: none;
-padding-bottom: 2rem;
-white-space: pre-line;
-    
-@media screen and (max-width: 576px) {
-    font-size: 1.25rem;
-    text-align: left;
-    }
-`;  
+font-size: 1.25rem;
+white-space: break-spaces;
+`;
+

@@ -59,3 +59,49 @@ export const pricing = [
        ]
     },
 ]
+
+export const policies = [
+    {   name: "Cancellation Policy",
+        policy: `       We realize that sometimes things come up, and you need to cancel or reschedule your appointment. That's just life and it happens! If you find that you won’t be able to make your appointment, please contact your service provider directly. Although, in order for us to continue operating as usual, we have this policy in place to protect our livelihood. Think of it as if you were booking an appointment at the dentist, doctor, or with a tattoo artist. You would be charged a fee for canceling or would be required to put down a deposit to keep your appointment slot. 
+        
+        If you cancel or reschedule your appointment within the 24 hour window, regardless of reason, you will be sent an invoice for 50% of your service. If this becomes a recurring event, we may be required to prepay for your services when booking. 
+
+*Additional fees/services day of will be applied at the end of service
+        
+        We require a 50% deposit for services over $300 upon booking. If you reschedule your appointment before 24 hours, that money will be used towards the new appointment. If you cancel within the 24 hour window, the deposit is non-refundable.
+        
+        If you fail to contact us and do not show up to your appointment, you will be charged 100% of the services scheduled. 
+
+*We reserve the right to have a card on file to book appointments`,
+    },
+
+    {   name: "COVID-19 POLICY",
+        policy: `       We have enacted the following policies in response to the coronavirus pandemic and constantly evolving guidance from health officials. We strive for the utmost safety for our clients and ourselves. 
+        
+        Masks are required for all guests and stylists in the studio. We are still maintaining sanitation practices in between each client. We are continuing to consult medical and safety professionals on the safest practices during this time.`,
+    },
+
+]
+
+export const links = [
+    {   name: "Lindsay Links",
+        links: [
+            { product: "Verb",
+              link: "https://www.verbproducts.com/discount/X38XHJQ3P0CF?rfsn=5864386.e4fb990",
+            },
+            { product: "Amika",
+              link: "https://loveamika.com/lindsayalainahair",
+            },
+            { product: "Hairstory",
+              link: "https://www.hairstory.com/?r=nmqtca",
+            },
+        ]
+    },
+    {   name: "Madison Links",
+        links: [
+            { product: "coming soon...",
+              link: "",
+            },
+        ]
+    }
+]

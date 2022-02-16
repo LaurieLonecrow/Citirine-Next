@@ -22,10 +22,10 @@ a {
   --emerald: #1b4d4a;
   --rose: #d47c8b;
   --lightrose: #ffe0e0;
-  // --lightrose: #edc9bd;
   --white: #f1f1f1;
-  --cream: #f9f2ed;
+  --cream: #fff3de;
   --orange: #fda50f;
+  --lightorange: #ffe5b8;
   --black: #1a1a1a;
 }
 `
