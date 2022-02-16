@@ -1,9 +1,7 @@
 import React from 'react';
 import { Container, Content, BioCard, BioPic, BioName, BioTagline, BioContent } from './BioStyles';
-import Hero from '../Hero';
-import { bios } from '../../constants/bios'
 
-const Bio = () => {
+const Bio = ({bios}) => {
   return (
       <>
     <Container>

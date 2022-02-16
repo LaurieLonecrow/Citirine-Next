@@ -1,11 +1,11 @@
 import React from 'react';
 import {Container} from '../../styles/ServicesStyles'
+import { pricing } from '../../constants/constants';
+import Prices from '../../components/Prices';
 const Sevices = () => {
   return (
   <div>
-      <h1>Cuts</h1>
-      <h1>Color</h1>
-      <h1>Lightening</h1>
+      <Prices pricing={pricing}/>
   </div>
   );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
 import Bio from '../../components/Bio';
-import {Container} from '../../styles/MeetStyles'
+import { bios } from '../../constants/constants'
 const Meet = () => {
   return (
-      <Bio/>
+      <Bio bios={bios}/>
   );
 };
 

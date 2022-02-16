@@ -20,3 +20,42 @@ export const bios = [
     
 ]
     
+export const pricing = [
+    {   name:'Cuts',
+        services:[
+       `Bang Trim: $15 - 15mins`, 
+       `Simple Cut: $55 - 30mins 
+        Clipper cut, dry haircut, simple blunt cut`,
+       `Maintenance Cut: $85 - 1hr
+        Trimming and maintaining the general shape of the haircut`,
+       `Craft Cut: $100 - 1.5hr+
+        Cutting off large amount, complicated shape, thick dense hair, initial curly cut client with tutorial`,
+       ],
+    },
+    {
+        name:'Color',
+        services: [
+           `Base color only - $100`,
+           `Base color with lightening service - $80`,
+           `End color - $50`,
+       ],
+    },
+    {   
+        name:'Lightening',
+        services:[
+        `Mini Highlight - $100`,
+        `Partial Highlight - $150`,
+        `Full Highlight - $200`,
+        `Balayage Mini - $100`,
+        `Balayage Partial - $200`,
+        `Balayage Full - $275-$300`,
+        `Blonde Overhaul - $400+`,
+        `Olaplex Add-on - $45`,
+        `Olaplex Stand Alone Treatment - $80`,
+        `Toner Stand Alone Treatment - $70`,
+        `Toner add-on - $45`,
+        `Shampoo and Style - $60`,
+        `Extra product - $25 per bowl`,  
+       ]
+    },
+]
