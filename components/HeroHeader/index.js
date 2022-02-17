@@ -1,7 +1,7 @@
 import React from 'react';
 import { HeroTitle } from './HeroHeaderStyles'
-const HeroHeader = () => {
-  return <HeroTitle>Welcome to Citrine Hair Studio</HeroTitle>;
+const HeroHeader = ({content}) => {
+  return <HeroTitle>{content}</HeroTitle>;
 };
 
 export default HeroHeader;
