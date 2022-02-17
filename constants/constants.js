@@ -105,3 +105,10 @@ export const links = [
         ]
     }
 ]
+
+export const products = [
+    'https://res.cloudinary.com/lonecrow/image/upload/v1645126390/Citrine/redken_yxwit6.png',
+    'https://res.cloudinary.com/lonecrow/image/upload/v1645126390/Citrine/SPARKSlogo_f8tx23.png',
+    'https://res.cloudinary.com/lonecrow/image/upload/v1645126390/Citrine/amika_logo_yprpfl.png',
+    'https://res.cloudinary.com/lonecrow/image/upload/v1645126390/Citrine/olaplex_yieeha.png',
+]
