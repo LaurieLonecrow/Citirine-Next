@@ -1,12 +1,17 @@
 import React from 'react';
 import Hero from '../Hero';
+import HeroHeader from '../HeroHeader';
 import { Container, Content, Heading } from './WelcomeStyles';
+import { Section } from '../../styles/GlobalComponents';
 const Welcome = () => {
   return (
-      <>
+    <>
+      <Section>
       <Hero 
         position={`center`}
-        image={`https://res.cloudinary.com/lonecrow/image/upload/v1643990999/Citrine/LSA_9484_f5yj6d.jpg`}/> 
+        image={`https://res.cloudinary.com/lonecrow/image/upload/v1643990999/Citrine/LSA_9484_f5yj6d.jpg`}/>
+        <HeroHeader/>
+        </Section>
     <Container>
        <Heading>Our Mission</Heading>
        <Content>

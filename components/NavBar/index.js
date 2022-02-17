@@ -17,10 +17,10 @@ const NavBar = () => {
       <NavButton onClick={()=>show()}><CgMenu/></NavButton>
     </Nav>
     <NavLinkList visible={showModal}>
-      <NavLink onClick={()=>show()} ><Link href='/meet' passHref>Meet Citrine</Link></NavLink>
-      <NavLink onClick={()=>show()}><Link href='/services' passHref>Services</Link></NavLink>
-      <NavLink onClick={()=>show()}><Link href='/policies' passHref>Policies</Link></NavLink>
-      <NavLink onClick={()=>show()}><Link href='/links' passHref>Affiliate Links</Link></NavLink>
+      <Link href='/meet' passHref><NavLink onClick={()=>show()} >Meet Citrine</NavLink></Link>
+      <Link href='/services' passHref><NavLink onClick={()=>show()} >Services</NavLink></Link>
+      <Link href='/policies' passHref><NavLink onClick={()=>show()} >Policies</NavLink></Link>
+      <Link href='/links' passHref><NavLink onClick={()=>show()} >Affiliate Links</NavLink></Link>
       {/* <NavLink onClick={()=>show()}><Link href='/faq' passHref>FAQ</Link></NavLink> */}
     </NavLinkList>
   </>

@@ -31,7 +31,7 @@ export const NavLinkList = styled.ul`
     flex-direction: column;
     text-align: center;
     gap: 20px;
-    padding: 80px 20px;
+    padding: 20px;
     margin-block-start: 0;
     margin-block-end: 0;
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { links } from '../../constants/constants';
 import { Container, LinkCard, LinkHeader, LinkContent, LinkListItem } from './LinkStyles';
 
-const Link = () => {
+const ProductLink = () => {
   return (
   <Container>
     {links.map((each,id) => (
@@ -19,4 +19,4 @@ const Link = () => {
   );
 };
 
-export default Link;
+export default ProductLink;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import {LogoTitle, LogoText} from './LogoStyles'
+import {LogoText} from './LogoStyles'
 const Logo = () => {
   return (
   <Link href='/' passHref>

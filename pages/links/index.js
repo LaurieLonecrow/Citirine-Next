@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from '../../components/Link';
+import ProductLink from '../../components/ProductLink';
 const Links = () => {
   return (
-  <Link/>
+  <ProductLink/>
   );
 };
 
