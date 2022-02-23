@@ -10,7 +10,7 @@ const Welcome = () => {
       <Hero 
         position={`center`}
         image={`https://res.cloudinary.com/lonecrow/image/upload/v1643990999/Citrine/LSA_9484_f5yj6d.jpg`}/>
-        <HeroHeader content={`Welcome to Citrine Hair Studio`}/>
+        {/* <HeroHeader content={`Welcome to Citrine Hair Studio`}/> */}
         </Section>
     <Container>
        <Heading>Our Mission</Heading>

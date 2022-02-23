@@ -26,7 +26,7 @@ export const Heading = styled.h1`
     position: absolute;
     top: 1.5rem;
     left: 40px;    
-    transform: rotate(-10deg);
+    // transform: rotate(-10deg);
     letter-spacing: .2rem;
     margin-block-start: 0;
     margin-block-end: 0;
